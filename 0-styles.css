@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page Title</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Replace with your CSS file name and path -->
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="brand-container">
+                <img
+                <h1>Headphones</h1>
+                <!-- Add navigation or other header content here -->
+    </header>
+
+    <main>
+        <!-- Your webpage content goes here -->
+    </main>
+
+    <footer>
+        <!-- Footer content, e.g., copyright information -->
+    </footer>
+</body>
+</html>
