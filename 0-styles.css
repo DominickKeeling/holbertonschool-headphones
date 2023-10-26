@@ -162,6 +162,7 @@ a:hover {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
+}
 
 .results-block {
     display: flex;
@@ -173,7 +174,6 @@ a:hover {
 
 .results-block h1 {
     font-size: 2rem;
-    font-family: ;
     
 }
 
@@ -186,9 +186,6 @@ a:hover {
 .percentage-block {
     display: flex;
     flex-direction: row;
-    justify-content: ;
-
-
 }
 
 .percentage-1 {
