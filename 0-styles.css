@@ -177,7 +177,7 @@ a:hover {
 }
 
 .results-block p {
-    width: 39.8125rem;
+    width: 42.6125rem;
     text-align: center;
     
 }
@@ -185,6 +185,8 @@ a:hover {
 .percentage-block {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 11rem;
 }
 
 .percentage-1 {
@@ -197,6 +199,8 @@ a:hover {
 }
 
 .overlay {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     z-index: 1;
 }
@@ -204,4 +208,9 @@ a:hover {
 .percentage-1 img {
     width: 11.5rem;
     height: auto;
+}
+
+.overlay h1, p {
+    display: flex;
+    justify-content: center;
 }
