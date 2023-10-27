@@ -1,0 +1,279 @@
+/* Global CSS variables */
+:root {
+  --primary-color: ;
+  --secondary-color: ;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+  scroll-behavior: smooth;
+  background: url("./images/main-background.png");
+  background-size: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  min-width: 1440px;
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+button {
+  font-family: 'SSP', sans-serif;
+  background-color: #FF6565;
+  color: white;
+  border-radius: 80rem;
+  border: 0;
+  padding: 1rem 2rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+
+
+.header-links a:hover {
+  color: #FF6565;
+}
+
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container .logo {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+
+.header-links {
+  display: flex;
+  gap: 40px;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* main banner section */
+
+.banner-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 6rem
+}
+
+.banner-section .main-title {
+  font-size: 32px;
+  padding-top: 16rem;
+  margin-bottom: 0;
+
+}
+
+.banner-section .sub-title {
+  margin-top: 0;
+
+
+}
+
+.banner-text-2 {
+  margin-top: 5rem;
+  width: 39.8125rem;
+  color: #FFF;
+  text-align: center;
+  font-family: 'SSP', sans-serif;
+  font-size: 0.95rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+/* What we do section */
+
+.what-we-do-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.what-we-do {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.what-we-do h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.what-we-do p {
+  text-align: center;
+  line-height: 1.625rem;
+  width: 40rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #071629;
+}
+
+.things-we-do {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.thing-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thing-1 h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.thing-1 p {
+  text-align: center;
+  width: 12.9375rem;
+}
+
+/* results section */
+
+.results-section {
+  background-image: url(./images/background-2.png);
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.results-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 0;
+  
+}
+
+.results-block h1 {
+  margin-top: 4rem;
+  padding: 10px;
+  font-size: 2rem;
+  
+}
+
+.results-block p {
+  width: 42.6125rem;
+  text-align: center;
+  padding-bottom: 50px;
+  line-height: 1.625rem;
+}
+
+.percentage-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 11rem;
+}
+
+.percentage-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  padding-top: ;
+}
+
+.percentage-1 img {
+  padding-top: 0;
+  width: 11.2rem;
+  height: auto;
+}
+
+.overlay h1, p {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+ 
